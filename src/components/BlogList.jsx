@@ -27,7 +27,6 @@ export default function BlogList() {
     const URL = api + 'api/blog';
     axios.get(URL).then((res) => {
       setPopulars(res.data);
-
     });
   }, []);
 
@@ -35,7 +34,7 @@ export default function BlogList() {
     const URL = api + `api/blogByCateFull?category_id=${categoryId}`;
     axios.get(URL).then((res) => {
       setBlog(res.data);
-      console.log(res.data)
+      console.log(res.data);
     });
   }, [categoryId]);
 
@@ -54,10 +53,10 @@ export default function BlogList() {
               ?.filter((val) => {
                 if (search === '') {
                   return val;
-                } else if (
-                  val.name.toLowerCase().includes(search.toLocaleLowerCase())
-                ) {
-                  return val;
+                } else {
+                  return val.name
+                    .toLowerCase()
+                    .includes(search.toLocaleLowerCase());
                 }
               })
               ?.map((post) => {
@@ -82,7 +81,7 @@ export default function BlogList() {
                       />
                     </div>
                     <div className='post-content'>
-                      <div className="post-category">
+                      <div className='post-category'>
                         <p>{post?.category?.name}</p>
                       </div>
                       <h3 className='post-name'>{post?.name}</h3>

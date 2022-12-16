@@ -142,7 +142,6 @@ export default function Top() {
                   >
                     <div className="card">
                       <div className="card-image">
-                        <a>
                           <img
                             src={
                               item.image !== '' ?? item.image !== null
@@ -153,7 +152,6 @@ export default function Top() {
                             }
                             alt={item.name}
                           />
-                        </a>
                       </div>
                       <div className="card-content">
                         {renderRating(item.rating)}

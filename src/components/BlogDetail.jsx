@@ -24,12 +24,14 @@ export default function BlogDetail() {
       console.log(res.data);
       setComments(res.data);
     });
+    // eslint-disable-next-line 
   }, [clickCmt]);
   useEffect(() => {
     const URL = api + 'api/category';
     axios.get(URL).then((res) => {
       setCategory(res.data);
     });
+    // eslint-disable-next-line 
   }, []);
   useEffect(() => {
     const URL = api + `api/blog/${params.id}`;
@@ -37,6 +39,7 @@ export default function BlogDetail() {
       console.log(res.data);
       setBlogdata(res.data);
     });
+    // eslint-disable-next-line 
   }, [clickRate]);
 
   useEffect(() => {
@@ -146,7 +149,7 @@ export default function BlogDetail() {
                       <article id='div-comment-1' className='comment-body'>
                         <div className='comment-meta'>
                           <div className='comment-author vcard'>
-                            <a href='' rel='external nofollow' className='url'>
+                            <a href='/' rel='external nofollow' className='url'>
                               <img
                                 src={
                                   item?.user?.avatar == null
@@ -181,7 +184,7 @@ export default function BlogDetail() {
                             <a
                               rel='nofollow'
                               class='btn btn-primary comment-reply-link'
-                              href=''
+                              href='/'
                               data-commentid='1'
                               data-postid='1'
                               data-belowelement='div-comment-1'
@@ -233,7 +236,7 @@ export default function BlogDetail() {
                       value={t('blog.comment')}
                       onClick={() => {
                         const URL3 = api + `api/comment/add/${params.id}`;
-                        if (commentbody != '' || commentbody != null) {
+                        if (commentbody !== '' || commentbody !== null) {
                           axios
                             .post(URL3, {
                               user_id: JSON.parse(

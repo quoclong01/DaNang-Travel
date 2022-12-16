@@ -9,14 +9,14 @@
     align-items: center;
   }
   &-lang {
-    @include pxRem(margin-right, 30);
+    margin-right: 30px;
     display: flex;
     align-items: center;
     &-item {
       font-weight: 600;
     }
     &-icon {
-      @include pxRem(margin-left, 4);
+      margin-left: 4px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -26,9 +26,9 @@
     display: flex;
     align-items: center;
     &-link {
-      @include pxRem(width, 44);
-      @include pxRem(height, 44);
-      @include border-radius(50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -41,7 +41,7 @@
         font-size: 20px;
       }
       &:first-child {
-        @include pxRem(margin-right, 12);
+        margin-right: 12px;  
       }
     }
   }

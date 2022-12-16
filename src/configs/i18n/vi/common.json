@@ -1,0 +1,36 @@
+{
+    "common": {
+      "header": {
+        "home": "Trang chủ",
+        "about": "Về chúng tôi",
+        "blog": "Bài viết",
+        "contact": "Liên hệ"
+      },
+      "footer": {
+        "support": "Hỗ trợ",
+        "company": "Công ty",
+        "contact": "Liên hệ",
+        "media": "Mạng xã hộiア",
+        "help_center": "Trung tâm hỗ trợ",
+        "cv_res": "Tình trạng Covid 19",
+        "cancel_option":"Hủy tùy chọn",
+        "safety_info":"Thông tin an toàn",
+        "about_us":"Về chúng tôi",
+        "community_blog": "Bài viết cộng đồng",
+        "carrer":"Người chăm sóc",
+        "privacy_policy":"Chính sách bảo mật",
+        "terms_of_service":"Hạn dịch vụ",
+        "partnership":"Đối tác",
+        "FAQ":"FAQ",
+        "get_in_touch":"Liên lạc"
+  
+  
+  
+  
+  
+  
+  
+      }
+    }
+  }
+  

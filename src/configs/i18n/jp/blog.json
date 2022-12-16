@@ -1,0 +1,22 @@
+{
+  "blog": {
+    "search": "探す",
+    "categories": "カテゴリー",
+    "comment":"コメント",
+    "leave_comment":"コメントを残す",
+    "say":"いう",
+    "popular_post": "人気の投稿",
+    "home": "ホーム",
+    "blog": "ブログ",
+    "reply": "返事",
+    "name": "名前",
+    "address": "住所",
+    "description": "説明",
+    "upload_image": "写真をアップロードする",
+    "category": "カテゴリー",
+    "write_name": "名前を書く",
+    "write_address": "書き込みアドレス",
+    "write_desc": "説明を書く",
+    "submit": "作成"
+  }
+}

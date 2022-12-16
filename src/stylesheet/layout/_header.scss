@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-bottom: 1px solid $gray-2;
+  &-right {
+    display: flex;
+    align-items: center;
+  }
+  &-lang {
+    @include pxRem(margin-right, 30);
+    display: flex;
+    align-items: center;
+    &-item {
+      font-weight: 600;
+    }
+    &-icon {
+      @include pxRem(margin-left, 4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &-auth {
+    display: flex;
+    align-items: center;
+    &-link {
+      @include pxRem(width, 44);
+      @include pxRem(height, 44);
+      @include border-radius(50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid $gray-1;
+      a {
+        display: inline-flex;
+        color: $text-color;
+      }
+      svg {
+        font-size: 20px;
+      }
+      &:first-child {
+        @include pxRem(margin-right, 12);
+      }
+    }
+  }
+}
+
+.nav {
+  &-menu {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+  }
+  &-link {
+    color: $text-color;
+    font-weight: 600;
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "common": {
+    "header": {
+      "home": "HOME",
+      "about": "ABOUT",
+      "blog": "BLOG",
+      "contact": "CONTACT"
+    },
+    "footer": {
+      "support": "Support",
+      "company": "Company",
+      "contact": "Contact",
+      "media": "Social Media",
+      "help_center": "Help Center",
+      "cv_res": "Our COVID-19 Response",
+      "cancel_option": "Cancellation options",
+      "safety_info": "Safety information",
+      "about_us": "About us",
+      "community_blog": "Community Blog",
+      "carrer": "Careers",
+      "privacy_policy": "Privacy policy",
+      "terms_of_service": "Terms of service",
+      "partnership": "Partnerships",
+      "FAQ": "FAQ",
+      "get_in_touch": "Get in touch"
+    }
+  }
+}

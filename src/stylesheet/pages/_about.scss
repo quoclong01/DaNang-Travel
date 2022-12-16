@@ -1,0 +1,51 @@
+.about {
+  &-banner {
+    margin: 0 auto;
+    padding-top: 50px;
+    img {
+      @include border-radius(20px);
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &-title {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    text-align: center;
+  }
+  &-list {
+    padding-bottom: 40px;
+  }
+}
+
+.member {
+  height: 432px;
+  margin-bottom: 34px;
+  text-align: center;
+  &-image {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    img {
+      height: 360px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: inherit;
+      transition: 0.2s linear;
+    }
+    &:hover {
+      img {
+        transform: scale(1.15);
+      }
+    }
+  }
+  &-name {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  &-position {
+    color: $gray-3;
+  }
+}

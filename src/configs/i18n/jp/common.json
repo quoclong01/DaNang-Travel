@@ -1,0 +1,35 @@
+{
+  "common": {
+    "header": {
+      "home": "ホーム",
+      "about": "アバウト",
+      "blog": "ブログ",
+      "contact": "コンタクト"
+    },
+    "footer": {
+      "support": "サポート",
+      "company": "会社",
+      "contact": "コンタクト",
+      "media": "ソーシャルメディア",
+      "help_center": "ヘルプセンター",
+      "cv_res": "COVID-19 への対応",
+      "cancel_option":"キャンセルオプション",
+      "safety_info":"安全情報",
+      "about_us":"私たちに関して",
+      "community_blog": "コミュニティ ブログ",
+      "carrer":"カリアズ",
+      "privacy_policy":"プライバシーポリシー",
+      "terms_of_service":"利用規約",
+      "partnership":"パートナーシップ",
+      "FAQ":"FAQ",
+      "get_in_touch":"連絡する"
+
+
+
+
+
+
+
+    }
+  }
+}

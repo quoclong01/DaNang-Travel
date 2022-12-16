@@ -1,0 +1,68 @@
+.card {
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  &-image {
+    a {
+      display: block;
+      height: 220px;
+      width: 100%;
+    }
+    img {
+      height: 220px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 15px 15px 0 0;
+    }
+  }
+  &-content {
+    padding: 20px 30px 30px;
+  }
+  &-name {
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    a {
+      font-size: 20px;
+      color: #232323;
+    }
+  }
+  &-address {
+    color: #727272;
+    font-size: 14px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  &-desc {
+    min-height: 80px;
+    font-size: 16px;
+    line-height: 26px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+.rating {
+  &-list {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  &-item {
+    margin-right: 4px;
+  }
+}

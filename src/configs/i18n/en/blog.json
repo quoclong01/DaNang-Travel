@@ -1,0 +1,22 @@
+{
+  "blog": {
+    "search": "Search",
+    "categories": "Categories",
+    "comment":"Comment",
+    "leave_comment":"Leave Comment",
+    "say":"Says",
+    "popular_post": "Popular posts",
+    "home": "Home",
+    "blog": "Blog",
+    "reply": "Reply",
+    "name": "Name",
+    "address": "Address",
+    "description": "Description",
+    "upload_image": "Upload image",
+    "category": "Category",
+    "write_name": "Write a name...",
+    "write_address": "Write a address...",
+    "write_desc": "Write a description...",
+    "submit": "Submit"
+  }
+}

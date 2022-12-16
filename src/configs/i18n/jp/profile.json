@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "name": "名前",
+    "email": "メール",
+    "male":"男",
+    "female":"女の子",
+    "phone_number": "電話番号",
+    "birth_date": "生年月日",
+    "gender": "性別",
+    "account_for": "説明する",
+    "account_information": "アカウント情報",
+    "personal_information": "個人情報",
+    "address": "住所",
+    "security": "安全",
+    "setting_password": "パスワードの設定",
+    "setting": "設定",
+    "save_change": "変更を保存する",
+    "change_password":"パスワードを変更する",
+    "new_password":"新しいパスワード",
+    "enter_new_pass":"新しいパスワードを入力してください",
+    "show_password": "パスワードを表示"
+  }
+}

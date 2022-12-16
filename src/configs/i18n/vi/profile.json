@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "name": "Tên",
+    "email": "Tên",
+    "male":"Nam",
+    "female":"Nữ",
+    "phone_number": "Số điện thoại",
+    "birth_date": "Ngày sinh",
+    "gender":"Giới tính",
+    "address": "Địa chỉ",
+    "account_for": "Tài khoản của",
+    "account_information": "Thông tin tài khoản",
+    "personal_information": "Thông tin cá nhân",
+    "security": "Bảo mật",
+    "setting_password": "Cài đặt mật khẩu",
+    "setting": "Cài đặt",
+    "save_change": "Lưu thay đổi",
+    "change_password":"Đổi mật khẩu",
+    "new_password":"Mật khẩu mới",
+    "enter_new_pass":"Nhập lại mật khẩu",
+    "show_password": "Hiện mật khẩu"
+  }
+}

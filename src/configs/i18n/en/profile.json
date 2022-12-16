@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "name": "Name",
+    "email": "Mail",
+    "male":"Male",
+    "female":"Female",
+    "phone_number": "Phone number",
+    "birth_date": "Birth date",
+    "gender": "Gender",
+    "account_for": " Account For",
+    "account_information": "Account Information",
+    "personal_information": "Personal Information",
+    "address": "Address",
+    "security": "Security",
+    "setting_password": "Setting Password",
+    "setting": "Setting",
+    "save_change": "Save Change",
+    "change_password":"Change Password",
+    "new_password":"New Password",
+    "enter_new_pass":"Enter New Password",
+    "show_password": "Show Password"
+  }
+}

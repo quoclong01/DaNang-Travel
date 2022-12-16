@@ -1,0 +1,22 @@
+{
+  "blog": {
+    "search": "Tìm kiếm",
+    "categories": "Thể loại",
+    "comment": "Bình luận",
+    "leave_comment": "Thoát bình luận",
+    "say": "Nói",
+    "popular_post": "Bài viết phổ biến",
+    "home": "Trang chủ",
+    "blog": "Bài viết",
+    "reply": "Phản hồi",
+    "name": "Tên quán",
+    "address": "Địa chỉ",
+    "description": "Mô tả",
+    "upload_image": "Tải ảnh lên",
+    "category": "Thế loại",
+    "write_name": "Ghi tên",
+    "write_address": "Ghi địa chỉ ",
+    "write_desc": "Ghi mô tả",
+    "submit": "Tạo"
+  }
+}
